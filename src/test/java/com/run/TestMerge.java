@@ -24,7 +24,7 @@ public class TestMerge {
     public void testRandom(){
         Random random = new Random();
         for (int i = 0; i < 100; i++) {
-            System.out.println(random.nextInt(900)+100);
+            System.out.println(random.nextInt(900)+10011);
         }
     }
 }
